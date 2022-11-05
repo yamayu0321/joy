@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+body {
+  background-color: black;
+}
+
+a:hover {
+  cursor: pointer;
+  filter: alpha(opacity=80);
+  opacity:0.8;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.area-contents {
+  text-align: center;
+}
+
+
+.frame {
+  margin-top: 50px;
+}
+.title {
+  margin-bottom: 25px;
+}
+
+.frame-map {
+  position: relative;
+  height: 250px;
+}
+
+.title-map {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.address {
+  position: absolute;
+  right: 40%;
+  bottom: 10%;
+}
+.contents-map {
+  position: absolute;
+  left: 62%;
+  bottom: 0;
+}
+
+
+.frame-logo {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+/* 1000px未満 */
+@media screen and (max-width: 999px) {
+  .frame {
+    margin-top: 25px;
+  }
+  .title {
+    margin-bottom: 15px;
+  }
+
+  .contents-story {
+    width: calc(624 / 1000 * 100vw);
+  }
+  .contents-point {
+    width: calc(804 / 1000 * 100vw);
+  }
+  .contents-howto {
+    width: calc(851 / 1000 * 100vw);
+  }
+  .contents-information {
+    width: calc(769 / 1000 * 100vw);
+  }
+  .contents-schedule {
+    width: calc(763 / 1000 * 100vw);
+  }
+  .frame-map {
+    height: calc(250 / 1000 * 100vw);
+  }
+  .title {
+    width: calc(844 / 1000 * 100vw);
+  }
+  .address {
+    width: calc(468 / 1000 * 100vw);
+  }
+  .contents-map {
+    width: calc(159 / 1000 * 100vw);
+  }
+  .contents-notice  {
+    width: calc(844 / 1000 * 100vw);
+  }
+
+  .logo {
+    width: calc(135 / 1000 * 100vw);
+  }
+}
