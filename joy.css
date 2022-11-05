@@ -1,0 +1,124 @@
+body {
+  background-color: #000000;
+}
+
+:root {
+  --midashi-margin: 5vh;
+  --main-margin: 3vh;
+}
+
+.screen {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.map {
+  width: 100vw;
+  max-width: 960px;
+  /* height: auto; */
+  display: flexbox;
+  margin-bottom: var(--main-margin);
+}
+
+#logo {
+  width: 100vw;
+  max-width: 450px;
+  height: auto;
+}
+#key-visual {
+  width: 100vw;
+  max-width: 960px;
+  height: auto;
+}
+#key-story {
+  width: 100vw;
+  max-width: 960px;
+  height: auto;
+}
+#copy {
+  width: 100vw;
+  max-width: 960px;
+  height: auto;
+  margin-bottom: 8vh;
+}
+#m-point {
+  width: 100vw;
+  max-width: 960px;
+  height: auto;
+  margin-bottom: var(--midashi-margin);
+}
+#point {
+  width: 100vw;
+  max-width: 960px;
+  height: auto;
+  margin-bottom: var(--main-margin);
+}
+#m-nagare {
+  width: 100vw;
+  max-width: 960px;
+  height: auto;
+  margin-bottom: var(--midashi-margin);
+}
+#nagare {
+  width: 100vw;
+  max-width: 960px;
+  height: auto;
+  margin-bottom: var(--main-margin);
+}
+#m-joho {
+  width: 100vw;
+  max-width: 960px;
+  height: auto;
+  margin-bottom: var(--midashi-margin);
+}
+#joho {
+  width: 100vw;
+  max-width: 960px;
+  height: auto;
+  margin-bottom: var(--main-margin);
+}
+#m-nitiji {
+  width: 100vw;
+  max-width: 960px;
+  height: auto;
+  margin-bottom: var(--midashi-margin);
+}
+#nitiji {
+  width: 100vw;
+  max-width: 960px;
+  height: auto;
+  margin-bottom: var(--main-margin);
+}
+#m-map {
+  width: 100vw;
+  max-width: 960px;
+  height: auto;
+  margin-bottom: var(--midashi-margin);
+}
+#map {
+  width: 100vw;
+  max-width: 50%;
+  height: auto;
+}
+#link-map {
+  width: 100vw;
+  max-width: 10%;
+  height: auto;
+}
+#m-chuui {
+  width: 100vw;
+  max-width: 960px;
+  height: auto;
+  margin-bottom: var(--midashi-margin);
+}
+#chuui {
+  width: 100vw;
+  max-width: 960px;
+  height: auto;
+  margin-bottom: var(--main-margin);
+}
+#yodaka-logo {
+  width: 100vw;
+  max-width: 60px;
+  height: auto;
+}

@@ -1,0 +1,11 @@
+@media screen and (min-width: 768px) {
+  :root {
+    --midashi-margin: 8vh;
+    --main-margin: 5vh;
+  }
+
+  .info {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
